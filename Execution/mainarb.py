@@ -76,11 +76,11 @@ while True:
             killSwitch = 0
 
         if message != "":
-            send_telegram(message, "5573175354:AAH32qOFLU-S-Vkd_n82yLPcI2NZ_yASpKw",
-                          "-1001706505505", True)
+            send_telegram(message, "5554:AAH2NZ_yASpKw",
+                          "-10005", True)
         firstStart = False
     except Exception as exc:
         print(exc)
-        send_telegram(f"İstasitiksel Arbitraj'da hata! \n\n --- Hata Kodu ---\n\n{exc}", "5573175354:AAH32qOFLU-S-Vkd_n82yLPcI2NZ_yASpKw",
-                      "-1001706505505", True)
+        send_telegram(f"İstasitiksel Arbitraj'da hata! \n\n --- Hata Kodu ---\n\n{exc}", "557317535_yASpKw",
+                      "-1005505", True)
         time.sleep(10)
